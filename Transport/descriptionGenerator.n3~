@@ -45,6 +45,6 @@ PREFIX : <http://www.example.org#>
   } 
   <= 
   {#condition
-   ?time math:notGreaterThan ?dtime.
+   ?time math:lessThan ?dtime.
   }
 }.
